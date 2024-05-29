@@ -1,0 +1,510 @@
+*,
+* ::after,
+* ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    width: 100%;
+    min-height: 100%;
+    height: 100%;
+}
+html {
+    font-family: "Work Sans", sans-serif;
+}
+/* main {
+    flex-grow:1 ;
+} */
+.header {
+    min-height:60px ;
+    display: flex;
+}
+.banner {
+    margin-top: 90px;
+}
+.section__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items:baseline;
+    width: 1344px;
+    margin: 0 auto;
+}
+.header-menu {
+    min-height: 50px;
+    position:relative;
+    width: 1440px;
+    margin: 0 auto;
+}
+.mainmenu__list {
+    display: flex;
+    column-gap: 20px;
+    justify-content: flex-end;
+    font-size: 20px;
+}
+.mainmenu__list a:hover{
+    text-decoration: underline;
+}
+.menu__link {
+    text-decoration: none;
+}
+.basket__list {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+a{
+    color: #212121;
+}
+ul {
+    list-style: none;
+}
+.knopp{
+    display: flex;
+}
+.knop1{
+    cursor: pointer;
+    width: 100px;
+    height: 35px;    
+    text-decoration: none;
+    margin-top: -5px;
+    font-size: 12px;
+    margin-right: 10px;
+    background-color: rgb(241, 203, 132);
+    color: black;
+    border: none;
+    border-radius: 5px;  
+    transition: all 0.3s ease-in-out ; /*переход будет медленно начинаться и заканчиваться в течении указ времени */
+    
+}
+.knop1:hover,
+.knop1:focus{ 
+    border: none;
+    outline: 2px solid  rgb(223, 221, 218); /*задает доп рамку */
+    transition: all 0.3s ease-in-out ;
+}
+.knop2{
+    cursor: pointer;
+    width: 70px;
+    height: 35px;    
+    text-decoration: none;
+    margin-top: -5px;
+    font-size: 12px;
+    background-color:white;
+    color: black;
+    border-radius: 5px;  
+    transition: all 0.3s ease-in-out ; /*переход будет медленно начинаться и заканчиваться в течении указ времени */
+    
+}
+.knop2:hover,
+.knop2:focus{
+    border: 2px solid rgb(243, 243, 243); 
+    outline: 2px solid  rgb(235, 177, 119); /*задает доп рамку */
+    transition: all 0.2s ease-in-out ;
+}
+
+/* -------------content--1--------------- */
+.content--1{
+    height: 850px;
+    background-image: url('../img/Rectangle.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    width: 1440px;
+    margin: 0 auto;
+}
+.content1{
+   max-width: 1152px;
+    margin: 0 auto;
+    padding-top: 216px;
+}
+
+.textt1{
+    color: #013A4C;
+    font-size: 76px;
+    font-family: "Roboto", sans-serif;
+}
+.content1 p{
+    color:#013A4C;
+    letter-spacing: 0.1em;
+    padding-bottom: 10px;
+}
+.knoppp{
+    display: flex;
+    column-gap: 10px;
+}
+.knop3{
+    cursor: pointer;
+    width: 140px;
+    height: 40px;    
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 15px;
+    background-color: #FFD063;
+    color: #013A4C;
+    border: none;
+    border-radius: 5px;  
+    transition: all 0.3s ease-in-out ; /*переход будет медленно начинаться и заканчиваться в течении указ времени */
+    
+}
+.knop3:hover,
+.knop3:focus{ 
+    border: none;
+    outline: 2px solid  rgb(223, 221, 218); /*задает доп рамку */
+    transition: all 0.3s ease-in-out ;
+}
+.knop4{
+    cursor: pointer;
+    width: 140px;
+    height: 40px;    
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 15px;
+    background-color: #013A4C;
+    color: white;
+    border: none;
+    border-radius: 5px;  
+    transition: all 0.3s ease-in-out ;
+    
+}
+.knop4:hover,
+.knop4:focus{
+    border: 2px solid rgb(243, 243, 243); 
+    outline: 2px solid  rgb(235, 177, 119); /*задает доп рамку */
+    transition: all 0.2s ease-in-out ;
+}
+
+/* -------------content--2--------------- */
+
+.contant--2{
+    background-color: #013A4C;
+    height: 288px;
+    width: 1440px;
+    margin: 0 auto;
+}
+.content2 div p{
+    color: white;
+    font-size: 25px;
+    /* width: 528px; */
+    height: 38px;
+    padding-left: 456px;
+}
+.content2{  
+    width: 1440px;
+    /* height: 127.97px; */
+    padding-top: 80px;
+    margin: 0 auto;
+}
+
+.svg{
+    display: flex;
+    /* flex-wrap:wrap-reverse; */
+    justify-content: center;
+    align-items:center;
+    /* width: 1140; */
+    margin: 0 auto;
+    
+}
+.svggg{
+    margin: 20px;
+}
+
+/* -------------content--3--------------- */
+
+.contant--3{
+    background-color: hsl(194, 97%, 15%);
+    height: 600px;
+    width: 1440px;
+    margin: 0 auto;
+}
+.content3{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    width: 1152px;
+    height: 507px;
+    margin: 0 auto;
+}
+
+.info{
+    /* margin-top: 90px; */
+    width: 624px;
+    height: 507px;
+}
+.textt2{
+    width: 402px;
+    height: auto;
+    font-size: 72px;
+    color: #F2DCE4;
+    font-family: "Roboto", sans-serif;
+}
+.info .textt22{
+    color:#FFFFFF;
+    /* letter-spacing: 0.1em;
+    padding-bottom: 10px; */
+    font-size: 21px;
+    margin-top: 20px;
+}
+/* .picture{
+    width: 500px;
+    height: 500px;
+} */
+.picture img{
+    width: 501px;
+    height: 501px; 
+}
+.knop5{
+    cursor: pointer;
+    width: 216px;
+    height: 50px; 
+    text-decoration: none;
+    margin-top: 30px;
+    font-size: 16px;
+    background-color: #FFD063;
+    color: #013A4C;
+    border: none;
+    border-radius: 5px;  
+    transition: all 0.3s ease-in-out ; /*переход будет медленно начинаться и заканчиваться в течении указ времени */
+    
+}
+.knop5:hover,
+.knop5:focus{ 
+    border: none;
+    outline: 2px solid  rgb(223, 221, 218); /*задает доп рамку */
+    transition: all 0.3s ease-in-out ;
+}
+
+/* -------------content--4--------------- */
+.contant--4{
+    background-color: white;
+    /* height: 507px; */
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.content4{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    width: 1152px;
+    height: auto;
+    margin: 50px; 
+}
+.cart{
+    display: flex;
+    position: relative;
+    height: 540.19px;
+}
+.text4{
+    height: 54px;
+    font-size: 48px;
+    margin-right: 690px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    font-family: "Roboto", sans-serif;
+}
+.cart1{
+    width: 576px;
+    height: 540.19px;
+    text-align: center; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.cart2{
+    width: 576px;
+    height: 540.19px;
+    text-align: center; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.p1{
+    font-size: 16px;
+    height: 20px;
+    margin: auto;
+}
+.p2{
+    font-size: 32px;
+    height: 80px;
+    margin: auto;
+}
+.knop6{
+    cursor: pointer;
+    width: 154px;
+    height: 50px; 
+    text-decoration: none;
+    margin-top: auto;
+    font-size: 16px;
+    background-color: #FFD063;
+    color: #013A4C;
+    border: none;
+    border-radius: 5px;  
+    transition: all 0.3s ease-in-out ; /*переход будет медленно начинаться и заканчиваться в течении указ времени */
+    
+}
+.knop6:hover,
+.knop6:focus{ 
+    border: none;
+    outline: 2px solid  rgb(223, 221, 218); /*задает доп рамку */
+    transition: all 0.3s ease-in-out ;
+}
+
+/* -------------footer--------------- */
+.footer{
+    width: 100%;
+    min-height: 100%;
+    height: 100%;
+}
+.contentf{
+    width: 1152px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.footerr{
+    background: #013A4C;
+    height: 676px;
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.floors{
+    width: 1152px;
+    height: 295px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+.floor1{
+    display: flex;
+    justify-content: space-between;
+    min-height: 295px;
+}
+.floors img{
+    width: 1152px;
+    height: 1px;
+}
+.fl1{
+    height: 231px;
+    width: 296px;
+    font-size: 14px;
+}
+.fl2{
+    height: 190px;
+    width: 135px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #99B0B7;
+}
+.fl3{
+    width: 95px;
+    height: 190px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #99B0B7;
+}
+.fl4{
+    width: 132px;
+    height: 190px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #99B0B7;
+}
+.fl5{
+    width: 111px;
+    height: 223px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #FFFFFF;
+}
+.fl1 svg{
+    margin-bottom: 50px;
+}
+.fl1 p{
+    font-size: 14px;
+    color: #FFFFFF;
+    margin: 1px;
+}
+.cw{
+    color: #FFFFFF;
+}
+
+.d1{
+    width: 368px;
+    height: 80px;
+}
+.d2{
+    height: 40px;
+    width: 153px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.floor2{
+    display: flex;
+    justify-content: flex-start;
+    min-height: 209px;
+    align-items: center;
+}
+.d1 .textt5{
+    font-size: 23px;
+    color: white;
+    margin-bottom: 30px;
+    font-family: "Roboto", sans-serif;
+
+}
+.d1 p{
+    font-size: 14px;
+    color: white;
+}
+.knop7{
+    cursor: pointer;
+    width: 153px;
+    height: 40px;    
+    /* margin-left: 60px; */
+    text-decoration: none;
+    font-size: 15px;
+    background-color: #FFD063;
+    color: #013A4C;
+    border: none;
+    border-radius: 5px;  
+    transition: all 0.3s ease-in-out ; /*переход будет медленно начинаться и заканчиваться в течении указ времени */
+    
+}
+.knop7:hover,
+.knop7:focus{ 
+    border: none;
+    outline: 2px solid  rgb(223, 221, 218); /*задает доп рамку */
+    transition: all 0.3s ease-in-out ;
+}
+
+
+.d3{
+    display: flex;
+    min-height: 26px;
+    min-width: 271px;
+    justify-content: space-between;
+    align-items: center;
+}
+.d3 p{
+    margin-right: 15px;
+    color: #99B0B7;
+}
+.floor3{
+    display: flex;
+    min-height: 44px;
+    align-items: center;
+}
