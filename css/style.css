@@ -124,6 +124,7 @@ ul {
     color: #013A4C;
     font-size: 76px;
     font-family: "Roboto", sans-serif;
+    font-weight: 400;
 }
 .content1 p{
     color:#013A4C;
@@ -238,6 +239,7 @@ ul {
     font-size: 72px;
     color: #F2DCE4;
     font-family: "Roboto", sans-serif;
+    font-weight: 400;
 }
 .info .textt22{
     color:#FFFFFF;
@@ -304,6 +306,7 @@ ul {
     margin-bottom: 40px;
     margin-top: 20px;
     font-family: "Roboto", sans-serif;
+    font-weight: 400;
 }
 .cart1{
     width: 576px;
@@ -400,7 +403,6 @@ ul {
     width: 135px;
     font-size: 14px;
     display: flex;
-    flex-direction: column;
     justify-content: space-around;
     color: #99B0B7;
 }
@@ -409,7 +411,6 @@ ul {
     height: 190px;
     font-size: 14px;
     display: flex;
-    flex-direction: column;
     justify-content: space-around;
     color: #99B0B7;
 }
@@ -418,7 +419,6 @@ ul {
     height: 190px;
     font-size: 14px;
     display: flex;
-    flex-direction: column;
     justify-content: space-around;
     color: #99B0B7;
 }
@@ -427,7 +427,6 @@ ul {
     height: 223px;
     font-size: 14px;
     display: flex;
-    flex-direction: column;
     justify-content: space-around;
     color: #FFFFFF;
 }
@@ -494,10 +493,6 @@ ul {
 
 .d3{
     display: flex;
-    min-height: 26px;
-    min-width: 271px;
-    justify-content: space-between;
-    align-items: center;
 }
 .d3 p{
     margin-right: 15px;
@@ -505,6 +500,300 @@ ul {
 }
 .floor3{
     display: flex;
-    min-height: 44px;
-    align-items: center;
+    /* min-height: 44px;
+    align-items: center; */
+}
+
+
+.mf{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.mff{
+    display: flex;
+
+}
+.menu__fu{
+    color: white;
+}
+.menu__futtt{
+    color: #99B0B7;
+}
+.menu_fuu{
+    display: flex;
+    margin-right: 20px;
+}
+
+
+@media (max-width: 1400px) {
+    .header-menu {
+        max-width: 1000px;  
+        display: flex;
+    }
+
+
+    .content2{
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .svg{
+        display: flex;
+        margin-left: 120px;
+    }
+    .content2 p{
+        margin-left: -110px;
+    }
+
+    .contant--4{
+        width: 1200px;
+    }
+
+
+    .footerr{
+        width: 1400px;
+    }
+    .floors{
+        width: 1200px;
+        margin-left: 20px;
+    }
+}
+@media (max-width: 1200px) {
+    .header-menu {
+        width: 992px;
+    }
+
+
+    .svg{
+        display: flex;
+        margin-left: 50px;
+    }
+    .content2 p{
+        margin-left: -250px;
+    }
+
+    .contant--3{
+        width: 1200px;
+    }
+    .info{
+        width: 400px;
+    }
+    .picture{
+        width: 300px;
+    }
+    .content3{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 150px;
+    }
+
+    .contant--4{
+        width: 1100px;
+    }
+
+
+    .footerr{
+        width: 1200px;
+    }
+    .floor1{
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+@media (max-width: 992px) {
+    .header-menu {
+        width: 992px;
+    }
+    .section__wrapper{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .content1{
+        margin-left: 30px;
+    }
+    .content--1{
+        width: 992px;
+    }
+    .contant--2{
+        width: 992px;
+    }
+    .footerr{
+        width: 992px;
+    }
+
+    .svg{
+        display: flex;
+        margin-left: 0px;
+    }
+    .content2 p{
+        margin-left: -300px;
+    }
+
+    .contant--3{
+        width: 992px;
+        height: 1100px;
+        display: flex;
+    }
+    .content3{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-left: 5px;
+    }
+    .picture{
+        margin-left: 50px;
+    }
+    .info{
+        margin-left: 130px;
+    }
+
+
+    .contant--4{
+        height: 1250px;
+        width: auto;
+    }
+    .content4{
+        height: 900px;
+        width: 992px;
+    }
+    .cart{
+        display: flex;
+        flex-direction: column;
+    }
+    .text4{
+        margin-left: 600px;
+    }
+    .floors{
+        width: 992px;
+    }
+}
+@media (max-width: 768px) {
+    .header-menu {
+        width: 576px;
+    }
+    .content1{
+        width: 500px;
+        margin-left: 150px;
+    }
+
+    .svg{
+        display: flex;
+        margin-left: 300px;
+        flex-direction: column;
+    }
+    .content2 p{
+        margin-left: -360px;
+    }
+    .contant--2{
+        width: 768px;
+        margin: 0;
+        height: 700px;
+    }
+    .content2{
+        width: 700px;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+@media (max-width: 576px) {
+    .header-menu {
+        width: 320px;
+        display: flex;
+    }
+    .content1{
+        width: 300px;
+        margin-left: 90px;
+    }
+
+    .svg{
+        display: flex;
+        margin-left: 200px;
+        flex-direction: column;
+    }
+    .content2 p{
+        margin-left: -330px;
+        width: 800px;
+    }
+
+
+    .footerr{
+        width: 576px;
+        height: 1400px;
+        margin: 0 auto;
+    }
+    .floors{
+        margin: 0 auto;
+        height: 1400px;
+        margin-left: -350px;
+    }
+    .floors img{
+        /* display: none; */
+        width: 920px;
+    } 
+    .fl1{
+        margin-bottom: 50px;
+    }
+    .floor1{
+        display: flex;
+        flex-direction: column;
+        margin-left: 470px;
+    }
+    .floor2{
+        display: flex;
+        flex-direction: column;
+        margin-left: 150px;
+        margin-top: 30px;
+    }
+    .floor3{
+        display: flex;
+        flex-direction: column;
+        margin-left: 370px;
+    }
+}
+@media (max-width: 320px) {
+    .header-menu {
+        width: 200px;
+        display: flex;
+    }
+    .content1{
+        width: 200px;
+        margin-left: 20px;
+    }
+
+    .svg{
+        display: flex;
+        margin-left: 70px;
+        flex-direction: column;
+        margin-top: 140px;
+    }
+    .content2 p{
+        margin-left: -360px;
+        width: 500px;
+    }
+    .content2{
+        width: 320px;
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+    }
+    .contant--2{
+        width: 320px;
+        margin: 0;
+        height: 900px;
+    }
+
+
+    .picture{
+        margin-left: -130px;
+        width: 100px;
+        margin-top: 80px;
+    }
+    .info{
+        margin-left: -100px;
+        width: 200px;
+    }
 }
