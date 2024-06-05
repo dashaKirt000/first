@@ -252,10 +252,10 @@ ul {
     width: 500px;
     height: 500px;
 } */
-.picture img{
+/* .picture img{
     width: 501px;
     height: 501px; 
-}
+} */
 .knop5{
     cursor: pointer;
     width: 216px;
@@ -516,13 +516,37 @@ ul {
 }
 .menu__fu{
     color: white;
+    text-decoration: none;
+}
+.menu__fu:hover,
+.menu__fu:focus{ 
+    border: none;
+    transition: all 0.3s ease-in-out ;
+    color: #FFD063;
 }
 .menu__futtt{
     color: #99B0B7;
+    text-decoration: none;
+}
+.menu__futtt:hover,
+.menu__futtt:focus{ 
+    border: none;
+    transition: all 0.3s ease-in-out ;
+    color: #FFD063;
 }
 .menu_fuu{
     display: flex;
     margin-right: 20px;
+}
+a[href^="tel:"]{
+    color: white;
+    text-decoration: none;
+}
+a[href^="tel:"]:hover,
+a[href^="tel:"]:focus{ 
+    border: none;
+    transition: all 0.3s ease-in-out ;
+    color: #FFD063;
 }
 
 
